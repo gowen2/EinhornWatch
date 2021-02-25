@@ -1,5 +1,6 @@
 #!/bin/sh
 #stamp=`date +%s`
+br="\r\n" #Useful shorthand when you need to have a line break in a bot message
 stamp="out"
 namebase="last100"
 namefull="${namebase}-${stamp}.json"
@@ -62,9 +63,22 @@ fi
 #echo $latest_text > $BASEDIR/latestText.txt
 
 #CLI Outputs for Validation
-echo "\n------------------\nafter_id (in URL): $after_id"
-echo "latest_id: $latest_id"
-echo "old latest text: $old_latest_text"
-echo "latest text: $latest_text"
-echo "pulled URL: $urlbase$after_id"
-echo "next URL:   $urlbase$latest_id"
+#echo "\n------------------\nafter_id (in URL): $after_id"
+#echo "latest_id: $latest_id"
+#echo "old latest text: $old_latest_text"
+#echo "latest text: $latest_text"
+#echo "pulled URL: $urlbase$after_id"
+#echo "next URL:   $urlbase$latest_id"
+
+#Send output of unread messages to $TONK$ GMu
+#TEMPLATE: curl -d '{"text" : "EinhornWatch Bot:\r\nTesting Message\r\nWith line-breaks", "bot_id" : "480feaaf761f73e5712e49ac4d"}' https://api.groupme.com/v3/bots/post
+send_base1='{"text" : "'
+send_unread=`awk -v ORS='\\r\\n' '1' $BASEDIR/UnreadTexts.txt`
+send_unread="${send_unread}"
+send_base2='", "bot_id" : "480feaaf761f73e5712e49ac4d"}'
+send_combo="'${send_base1}${send_unread}${send_base2}'"
+
+echo
+echo $send_combo
+
+#curl -d "$send_combo" https://api.groupme.com/v3/bots/post

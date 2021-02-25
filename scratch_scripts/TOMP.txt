@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><html lang="en"><head id="j_idt3">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+  <title>SailPoint IdentityIQ</title>
+  <link rel="shortcut icon" href="/identityiq/ui/images/favicon.ico" />
+  <!-- split up css because IE9 can only handle ~4k rules per file --><link rel="stylesheet" type="text/css" href="/identityiq/ui/css/combined.css.en-US.h1582537799.pack" charset="utf-8"/><link rel="stylesheet" type="text/css" href="/identityiq/ui/css/combined.css.en-US.h-1060182878.pack" charset="utf-8"/><link rel="stylesheet" type="text/css" href="/identityiq/ui/css/combined.css.en-US.h-849072348.pack" charset="utf-8"/><script type="text/javascript" src="/identityiq/javax.faces.resource/jquery/jquery.js.jsf;jsessionid=FCBF6A436695575EDE861D853540B85F?ln=primefaces&amp;v=7.0&amp;rv=ad1fcefc336-20200715-171039"></script><script type="text/javascript" src="/identityiq/ui/js/combined.js.en-US.h1693293286.pack" charset="utf-8"></script>
+    <script type="text/javascript" src="/identityiq/ui/jspm_packages/system-polyfills.js?ad1fcefc336-20200715-171039"></script>
+    <script type="text/javascript" src="/identityiq/ui/jspm_packages/system.js?ad1fcefc336-20200715-171039"></script>
+    <script type="text/javascript">
+      System.config({ baseURL: '/identityiq/ui'});
+    </script>
+    <script type="text/javascript" src="/identityiq/ui/jspm.config.js?ad1fcefc336-20200715-171039"></script>
+
+  <script type="text/javascript">
+    System.import('/identityiq/ui/js/aria/AriaAppModule.js');
+
+    // Wait until everything is loaded before enabling the Forgot Password Functionality
+    $(document).ready(function () {
+        var passwordDiv = document.getElementById('forgotPasswordDiv');
+        if (passwordDiv) {
+            passwordDiv.style['visibility'] = "visible";
+        }
+    });
+  </script>
+  
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    if (true) {
+        if (top.location != window.location) {
+            top.location.replace(window.location);
+        }
+    }
+
+    window.onload = function () {
+        /* Internet Explorer has the behavior that when focused a field loses its placeholder text
+         * to avoid showing a blank field we do not auto-focus the username field */
+        var ieRegEx = /MSIE/;
+        SailPoint.TimeZone.getTimeZone('loginForm');
+        if(!ieRegEx.test(navigator.userAgent)) {
+            document.getElementById('loginForm:accountId').focus();
+            document.getElementById('loginForm:accountId').select();
+        }
+
+        var hash = window.location.hash,
+            preLoginUrlInput = document.getElementById("loginForm:preLoginUrl");
+
+        if (hash) {
+            // If preLoginUrl doesn't already have an anchor, go ahead and add the hash.
+            if (preLoginUrlInput && preLoginUrlInput.value.indexOf('#') === -1) {
+                preLoginUrlInput.value = preLoginUrlInput.value + hash;
+            }
+
+            // Now that the hash is set, remove it from the address bar
+            window.location.hash = '';
+        }
+    };
+    
+    //prevent submit login twice
+    function disableButton() {
+        setTimeout(function() {
+            document.getElementById('loginForm:loginButton').disabled=true;
+        }, 50);
+    }
+    //--><!]]>
+  </script></head><body>
+  <header class="header">
+    <div class="navbar-header">
+      <div class="nav-brand"><img src="/identityiq/ui/images/TopLogo1.png" alt="SailPoint Logo" /></div>
+    </div>
+  </header>
+
+  <section id="content" class="m-t-lg animated fadeInUp">
+    <div class="row m-n">
+      <div class="col-sm-6 col-sm-offset-3 m-t-lg">
+<form id="loginForm" name="loginForm" method="post" action="/identityiq/login.jsf;jsessionid=FCBF6A436695575EDE861D853540B85F" autocomplete="off">
+<input type="hidden" name="loginForm" value="loginForm" />
+<input id="loginForm:initialTimeZoneId" type="hidden" name="loginForm:initialTimeZoneId" /><input id="loginForm:preLoginUrl" type="hidden" name="loginForm:preLoginUrl" />
+          <section class="panel">
+            <header class="panel-heading bg-light lter text-center"><span class="h3 font-thin login-welcome">Welcome</span>
+            </header>
+
+            <div class="panel-body">
+              <section role="presentation">
+                <div class="clearfix text-center">
+                  <div class="inline">
+                    <div class="thumb-md m-b-lg">
+                      <img role="presentation" src="/identityiq/ui/images/loginLogo.png" class="img-circle" alt="Login Logo" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <div class="sp-ui-app">
+                <div id="alertDiv" class="sr-only" role="alert" aria-live="assertive"></div>
+              </div>
+
+              <div class="form-group ">
+                <label class="compliance-only" for="loginForm:accountId">Username</label><input id="loginForm:accountId" type="text" name="loginForm:accountId" class="form-control input-lg" placeholder="Username" autocomplete="off" onkeypress="return SailPoint.Login.submitenter(this,event,'loginForm:loginButton')" />
+              </div>
+              <div class="form-group ">
+                  <label class="compliance-only" for="loginForm:password">Password</label><input placeholder="Password" id="loginForm:password" type="password" name="loginForm:password" value="" onkeypress="return SailPoint.Login.submitenter(this,event,'loginForm:loginButton')" class="form-control input-lg" />
+              </div>
+
+              <div class="pull-left m-t-n-xs">
+              </div>
+
+              <div class="pull-right m-t-n-xs">
+              </div>
+            </div>
+            <footer class="panel-footer text-center clearfix bg-light lter">
+              <div class="inline"><input id="loginForm:loginButton" type="submit" name="loginForm:loginButton" value="Login" class="btn btn-info btn-s-lg" onclick="disableButton()" />
+              </div>
+            </footer>
+          </section><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="5077149079340115518:8867915627722219497" autocomplete="off" />
+</form>
+      </div>
+    </div>
+    <div class="text text-center text-muted v-bottom m-t-sm hidden-xs" aria-hidden="true">Version: 8.1
+       
+      ©
+      Copyright 2020 SailPoint Technologies - All rights reserved.
+    </div>
+  </section>
+
+  <!-- Client locale: en_US -->
+  <!-- Build: 8.1p1 ad1fcefc336-20200715-171039 --></body>
+</html>
+
+</html>

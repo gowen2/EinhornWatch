@@ -37,21 +37,23 @@ rm /Users/george.owen/src/GitHub/EinhornWatch/Last20/*.txtg
 #gets message id of latest Einhorn messahe
 latest_id=`awk '/./{line=$0} END{print line}' /Users/george.owen/src/GitHub/EinhornWatch//Last20/jqout.messageid.txt`
 
-#if [ -z "latest_id" ]; then
-#  echo "\nNo new messages since message ID: $after_id"
-#  echo "Writing previous message ID (above) to LatestID.txt"
-#  echo $after_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
-#else;
-#  echo $latest_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
-#fi;
+if [ -z $latest_id ]
+then
+  echo "\nNo new messages since message ID: $after_id"
+  echo "Writing previous message ID (above) to LatestID.txt"
+  echo $after_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
+  latest_id=$after_id
+else
+  echo $latest_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
+fi
 
-echo $latest_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
+#echo $latest_id > /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
 
 #CLI Outputs for Validation
 echo "\nafter_id (in URL): $after_id"
 echo "latest_id: $latest_id"
 echo "pulled URL: $urlbase$after_id"
-echo "next URL: $urlbase$latest_id"
+echo "next URL:   $urlbase$latest_id"
 #cat /Users/george.owen/src/GitHub/EinhornWatch/Last20/latestID.txt
 #echo $urlmessid
 #echo $url

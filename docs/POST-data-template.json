@@ -1,0 +1,40 @@
+{
+  "message": {
+    "source_guid": "GUID",
+    "text": "Hello world ☃☃",
+    "attachments": [
+      {
+        "type": "image",
+        "url": "https://i.groupme.com/123456789"
+      },
+      {
+        "type": "image",
+        "url": "https://i.groupme.com/123456789"
+      },
+      {
+        "type": "location",
+        "lat": "40.738206",
+        "lng": "-73.993285",
+        "name": "GroupMe HQ"
+      },
+      {
+        "type": "split",
+        "token": "SPLIT_TOKEN"
+      },
+      {
+        "type": "emoji",
+        "placeholder": "☃",
+        "charmap": [
+          [
+            1,
+            42
+          ],
+          [
+            2,
+            34
+          ]
+        ]
+      }
+    ]
+  }
+}

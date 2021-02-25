@@ -1,0 +1,300 @@
+{
+            "id": "56110027",
+            "group_id": "56110027",
+            "name": "$TONK$!",
+            "phone_number": "+1 7324083990",
+            "type": "private",
+            "description": "",
+            "image_url": "https://i.groupme.com/750x750.jpeg.255abf90fe644244a8b33b4500cba7f1",
+            "creator_user_id": "13619603",
+            "created_at": 1575382753,
+            "updated_at": 1613615280,
+            "muted_until": null,
+            "office_mode": false,
+            "share_url": "https://groupme.com/join_group/56110027/4SoqAVOj",
+            "share_qr_code_url": "https://image.groupme.com/qr/join_group/56110027/4SoqAVOj/preview",
+            "members": [
+                {
+                    "user_id": "13619603",
+                    "nickname": "George Owen",
+                    "image_url": "http://i.groupme.com/746x750.jpeg.81269d600803480ab2c60b0980bbe0c1",
+                    "id": "512070119",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "admin",
+                        "owner"
+                    ],
+                    "name": "George Owen"
+                },
+                {
+                    "user_id": "2726832",
+                    "nickname": "Dylan Ligori",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.0b5fb2361ab7434d9f9821dad47b7714",
+                    "id": "512070120",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Dylan Ligori"
+                },
+                {
+                    "user_id": "8838252",
+                    "nickname": "Paul Hood",
+                    "image_url": "https://i.groupme.com/1024x1024.jpeg.211fafca9c3747629065293401cdb8c4",
+                    "id": "512070121",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Paul Hood"
+                },
+                {
+                    "user_id": "16622283",
+                    "nickname": "Blake Pitre",
+                    "image_url": "https://i.groupme.com/1024x1024.jpeg.af479fdcb18f4416b9d648eb32dd99ac",
+                    "id": "512275240",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Andrew B"
+                },
+                {
+                    "user_id": "18245073",
+                    "nickname": "Sean Oklahoma Boyce",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.da1d6ce42e154da7b77329304af22c33",
+                    "id": "512275242",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Sean Oklahoma Boyce"
+                },
+                {
+                    "user_id": "6444990",
+                    "nickname": "Nathaniel Scott Hand",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.bac6427ec6f94a58bea4320d8320862b",
+                    "id": "512275654",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Nathaniel Scott Hand"
+                },
+                {
+                    "user_id": "6444997",
+                    "nickname": "Buffett",
+                    "image_url": "https://i.groupme.com/640x640.jpeg.f609fb7cf9f44977967d9b9765cd4a79",
+                    "id": "512275917",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Will Mumfrey"
+                },
+                {
+                    "user_id": "8796550",
+                    "nickname": "Alex Palacio",
+                    "image_url": "http://i.groupme.com/3d30ead06efb01307f351231381b0da4",
+                    "id": "512275918",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Alex Michael Palacio"
+                },
+                {
+                    "user_id": "7151389",
+                    "nickname": "Willbie Thomas",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.219359c19c104161a12a0a238d7febcb",
+                    "id": "512275919",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Dwayne Carter"
+                },
+                {
+                    "user_id": "20870844",
+                    "nickname": "Justin Eleser",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.ae739e63b1054baf80b41c92f935d6cd",
+                    "id": "537185733",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Justin Eleser"
+                },
+                {
+                    "user_id": "33652480",
+                    "nickname": "Bryce Hendricks",
+                    "image_url": "https://i.groupme.com/1024x1024.jpeg.687196c774a64365ba67dee53a2fa854",
+                    "id": "542792918",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Bryce Hendricks"
+                },
+                {
+                    "user_id": "20405995",
+                    "nickname": "Ryan Stuckey",
+                    "image_url": "https://i.groupme.com/1512x2016.jpeg.77532aa06f264ab19f981f0fb88a9795",
+                    "id": "549906216",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Ryan Stuckey"
+                },
+                {
+                    "user_id": "36099986",
+                    "nickname": "Sam Grayson",
+                    "image_url": "https://i.groupme.com/699x699.jpeg.1115e794d9534ef4bbd3b381a9edec36",
+                    "id": "555371886",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "what’s Hattin"
+                },
+                {
+                    "user_id": "16688907",
+                    "nickname": "Austin Rosser",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.0d72535d2b0047f1a055ec6bf4881dd0",
+                    "id": "558311263",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Austin Rosser"
+                },
+                {
+                    "user_id": "12471533",
+                    "nickname": "Ethan Maynor",
+                    "image_url": "https://i.groupme.com/750x748.jpeg.a65ce038e786428dbc2c71a0e1196519",
+                    "id": "558757057",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Ethan Maynor"
+                },
+                {
+                    "user_id": "20870911",
+                    "nickname": "Jacob McWilliams",
+                    "image_url": "https://i.groupme.com/1023x1024.jpeg.7bea70a86f044cb7908912c2105a3466",
+                    "id": "558757058",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Jacob McWilliams"
+                },
+                {
+                    "user_id": "40549832",
+                    "nickname": "Shaban Malik",
+                    "image_url": "https://i.groupme.com/469x469.jpeg.49550fe9e4fc47f9be8b9b051958fa2c",
+                    "id": "559593181",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Shaban Malik"
+                },
+                {
+                    "user_id": "20260149",
+                    "nickname": "Jarrett Myers",
+                    "image_url": "https://i.groupme.com/750x750.jpeg.ff6246b7f23342d2b83089a013bdf0a3",
+                    "id": "613891162",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Jarrett Myers"
+                },
+                {
+                    "user_id": "5494216",
+                    "nickname": "Walker Legrand",
+                    "image_url": "https://i.groupme.com/800x800.png.79a10186570b4fe3af36657302932c0e",
+                    "id": "616765300",
+                    "muted": true,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Walker Legrand"
+                },
+                {
+                    "user_id": "35589355",
+                    "nickname": "Patrick Davis",
+                    "image_url": "https://i.groupme.com/1024x1024.jpeg.17b9ba31c57d4fd5be7ba3db1f3a2772",
+                    "id": "623798822",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Patrick Davis"
+                },
+                {
+                    "user_id": "18088480",
+                    "nickname": "Master Wessel",
+                    "image_url": "https://i.groupme.com/1022x1024.jpeg.2db30472e0a541e0b2f5f5a8f01597a3",
+                    "id": "623798823",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Nicholas Wessel"
+                },
+                {
+                    "user_id": "30063216",
+                    "nickname": "Michael Seaner",
+                    "image_url": "https://i.groupme.com/1024x1024.jpeg.c6462e7e08cf4faf9147b8abe2695be3",
+                    "id": "628876442",
+                    "muted": false,
+                    "autokicked": false,
+                    "roles": [
+                        "user"
+                    ],
+                    "name": "Michael Seaner"
+                }
+            ],
+            "messages": {
+                "count": 6902,
+                "last_message_id": "161361528069646017",
+                "last_message_created_at": 1613615280,
+                "preview": {
+                    "nickname": "George Owen",
+                    "text": "For first creating your bot you can ignore the code stuff and just make it in the UI. You will need to get the group id via `curl` on the command line. This gm's group id is 56110027",
+                    "image_url": "https://i.groupme.com/746x750.jpeg.81269d600803480ab2c60b0980bbe0c1",
+                    "attachments": []
+                }
+            },
+            "max_members": 5000,
+            "theme_name": null,
+            "like_icon": null,
+            "requires_approval": false,
+            "show_join_question": false,
+            "join_question": null
+        }

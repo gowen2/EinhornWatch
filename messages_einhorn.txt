@@ -1,0 +1,17 @@
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "F883358A-A926-45E1-9E9D-0DEA7813759F",
+                "system": false,
+                "text": "Anyone have AI stocks",
+--
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "17B83B16-702A-4817-BAFC-1BAD7F14CA83",
+                "system": false,
+                "text": "Gort promote Enrico Lazareto",
+--
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "EEE01F1F-3889-4B83-9243-0A546C8B4268",
+                "system": false,
+                "text": "The fact fuse this low is absurd to me ",

@@ -1,0 +1,412 @@
+{
+    "response": {
+        "count": 120972,
+        "messages": [
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/750x498.jpeg.589c9f467d034f30894910a7db530173",
+                "created_at": 1613621720,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161362172041963464",
+                "name": "Avery Arons",
+                "sender_id": "16670471",
+                "sender_type": "user",
+                "source_guid": "8395CA69-3692-4C97-9001-0E39390D9677",
+                "system": false,
+                "text": "^what the man deepfuckingvalue is apparently going to say to congress. Pretty cool",
+                "user_id": "16670471",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/750x498.jpeg.589c9f467d034f30894910a7db530173",
+                "created_at": 1613621693,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161362169390038732",
+                "name": "Avery Arons",
+                "sender_id": "16670471",
+                "sender_type": "user",
+                "source_guid": "7B3EC50D-21D8-4D67-8209-9F30374ABBF3",
+                "system": false,
+                "text": "https://financialservices.house.gov/uploadedfiles/hhrg-117-ba00-wstate-gillk-20210218.pdf",
+                "user_id": "16670471",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613621465,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161362146544658732",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "49DD7E58-D1FD-4874-B210-C855FAC8BAD7",
+                "system": false,
+                "text": "Nga 30-35 calls for april",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613619896,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361989690709314",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "D46514D9-CAD3-4E8E-8849-5A0358C38CF3",
+                "system": false,
+                "text": "Clubhouse meeting doon ",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.697b2ef81f15456b926feb63de36abaf"
+                    }
+                ],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613619581,
+                "favorited_by": [
+                    "28449184"
+                ],
+                "group_id": "32841593",
+                "id": "161361958134067901",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "C8E722C5-0ABE-49F1-BB4F-0220C98467F9",
+                "system": false,
+                "text": "Ceo or $LTNC tweeted back to me ",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.3b1d5cee21bd41eb80559a20e54bee81"
+                    }
+                ],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613619502,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361950282262331",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "FFD717C9-41E1-44CD-BF95-E1214144485B",
+                "system": false,
+                "text": "June gsky 7.5 calls",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/1000x1000.jpeg.b1535824189342ac973f14032cf495fd",
+                "created_at": 1613617682,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361768259061177",
+                "name": "$tdsgf to the fucking stars",
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "F883358A-A926-45E1-9E9D-0DEA7813759F",
+                "system": false,
+                "text": "Anyone have AI stocks",
+                "user_id": "73205709",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/748x688.jpeg.95b39d35ebe0438b9801d1c9ae5b625e",
+                "created_at": 1613617601,
+                "favorited_by": [
+                    "22371928",
+                    "73205709"
+                ],
+                "group_id": "32841593",
+                "id": "161361760194994812",
+                "name": "Enrico Lazareto",
+                "sender_id": "23277769",
+                "sender_type": "user",
+                "source_guid": "262E4B50-CD6B-45CE-A0AB-85D7E6261E1F",
+                "system": false,
+                "text": "Suck my balls GORT",
+                "user_id": "23277769",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/300x239.jpeg.81a3b79b1d124745ab8ab0d9a4c15e95.large",
+                "created_at": 1613617385,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361738596701235",
+                "name": "GORT",
+                "sender_id": "825664",
+                "sender_type": "bot",
+                "source_guid": "bef083a053c3013968c422000b6d0111",
+                "system": false,
+                "text": "Enrico Lazareto has been promoted to Trusted User!\n",
+                "user_id": "825664",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/1000x1000.jpeg.b1535824189342ac973f14032cf495fd",
+                "created_at": 1613617385,
+                "favorited_by": [
+                    "23277769"
+                ],
+                "group_id": "32841593",
+                "id": "161361738564927901",
+                "name": "$tdsgf to the fucking stars",
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "17B83B16-702A-4817-BAFC-1BAD7F14CA83",
+                "system": false,
+                "text": "Gort promote Enrico Lazareto",
+                "user_id": "73205709",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/750x750.jpeg.811e9266b3594b779f45ae8a971764f0",
+                "created_at": 1613616439,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361643923232273",
+                "name": "Gregg K",
+                "sender_id": "28449184",
+                "sender_type": "user",
+                "source_guid": "97755F8D-DC07-474D-9869-4A78A13CD01F",
+                "system": false,
+                "text": "MRVL calls?",
+                "user_id": "28449184",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/1000x1000.jpeg.b1535824189342ac973f14032cf495fd",
+                "created_at": 1613616290,
+                "favorited_by": [
+                    "41833999"
+                ],
+                "group_id": "32841593",
+                "id": "161361629054133441",
+                "name": "$tdsgf to the fucking stars",
+                "sender_id": "73205709",
+                "sender_type": "user",
+                "source_guid": "EEE01F1F-3889-4B83-9243-0A546C8B4268",
+                "system": false,
+                "text": "The fact fuse this low is absurd to me ",
+                "user_id": "73205709",
+                "platform": "gm"
+            },
+            {
+                "attachments": [
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.5dddef8b70a34ac89bac0b6d2e44ef20"
+                    }
+                ],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613615600,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361560002116762",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "F5FB3982-9550-4739-86E6-3F034391842C",
+                "system": false,
+                "text": "Fuse may 10 calls cheap af ",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/1024x1024.jpeg.b428f067727a40618d2889b1baec61f7",
+                "created_at": 1613615429,
+                "favorited_by": [
+                    "40820702",
+                    "41673422",
+                    "55758540"
+                ],
+                "group_id": "32841593",
+                "id": "161361542993865095",
+                "name": "Shiterras Inc",
+                "sender_id": "7927963",
+                "sender_type": "user",
+                "source_guid": "7F4CDBD2-41F6-451B-962F-EAB92D56B26B",
+                "system": false,
+                "text": "https://twitter.com/spactrack/status/1362226374816239621?s=21",
+                "user_id": "7927963",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/777x777.jpeg.7551cba8253c49699e0430490e87384f",
+                "created_at": 1613613559,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361355985367982",
+                "name": "Zane Frazier",
+                "sender_id": "12608356",
+                "sender_type": "user",
+                "source_guid": "74FA3FB9-EB42-4981-9C2E-6E8A034A84CB",
+                "system": false,
+                "text": "Yeah I’m looking to use a lot more technicals for shorter term trades, gunna try and allocate some funds from medium-long term positions to fund it",
+                "user_id": "12608356",
+                "platform": "gm"
+            },
+            {
+                "attachments": [
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.8b5f69a38bc84e5baf85676ed7d35fc4"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.e05f823ca85b4722baaeb51e769b8dbb"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.70ef934ae81a42dbb08aa7061a41aa51"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.d49ea32b300a40718bdfe18be3aa47f9"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/1170x2532.jpeg.8e38dd01d45d4acf8fa3f5d586fca183"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/444x960.jpeg.8ff0e3b1f31b4d5ab6a477ee55b41e4e"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/444x960.jpeg.fc27c9e5e360445facfd32501b3daec0"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/444x960.jpeg.27426644243546e181220bd2b09b9ab7"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/444x960.jpeg.32e22aa0cb874080a6409de7c04ac1d7"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://i.groupme.com/444x960.jpeg.4c798f37f7684c66be5461087a163333"
+                    }
+                ],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613612852,
+                "favorited_by": [
+                    "12608356",
+                    "17613252",
+                    "26857963",
+                    "62693323",
+                    "73205709"
+                ],
+                "group_id": "32841593",
+                "id": "161361285259573441",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "BC9C32BE-304C-49C2-A270-21FA5C1E2DFE",
+                "system": false,
+                "text": "Can use technicals and wedges to day trade im looking 1 to 2 weeks on most of these plays",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/1022x1024.jpeg.7a1d590c107541df9e34adbdab3905dc",
+                "created_at": 1613612775,
+                "favorited_by": [
+                    "62770755",
+                    "7927963"
+                ],
+                "group_id": "32841593",
+                "id": "161361277576321439",
+                "name": "Frank Infante ΘΓ",
+                "sender_id": "11647537",
+                "sender_type": "user",
+                "source_guid": "26CC0355-A3A8-4356-AAF8-3A6C4FDD96F6",
+                "system": false,
+                "text": "ETH TO 2K 🚀🚀",
+                "user_id": "11647537",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613610811,
+                "favorited_by": [],
+                "group_id": "32841593",
+                "id": "161361081199558581",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "56FD52B0-B10D-4DE0-9B14-906317CB3232",
+                "system": false,
+                "text": "But at the same time someone tell me these plays arent gonna rip n a logical explination",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613610793,
+                "favorited_by": [
+                    "36267822"
+                ],
+                "group_id": "32841593",
+                "id": "161361079304743441",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "EA28B714-B5B5-4A47-9555-98D4797E7E2A",
+                "system": false,
+                "text": "SUNW\nCBAT \n\nup AH",
+                "user_id": "23053731",
+                "platform": "gm"
+            },
+            {
+                "attachments": [],
+                "avatar_url": "https://i.groupme.com/812x812.jpeg.b732ea629a6346bf81236ad57a302557",
+                "created_at": 1613610380,
+                "favorited_by": [
+                    "73205709"
+                ],
+                "group_id": "32841593",
+                "id": "161361038073802273",
+                "name": "YOLO. MARA WEEKLIES",
+                "sender_id": "23053731",
+                "sender_type": "user",
+                "source_guid": "8722997F-DE27-440D-AF45-85E77A21B78C",
+                "system": false,
+                "text": "This act used to b only spacs lmao ",
+                "user_id": "23053731",
+                "platform": "gm"
+            }
+        ]
+    },
+    "meta": {
+        "code": 200
+    }
+}

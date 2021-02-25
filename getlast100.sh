@@ -38,20 +38,20 @@ rm $BASEDIR/*.txtg
 
 #gets message id of latest Einhorn messahe
 #WRONG: Gets last line (oldest message ID) #latest_id=`awk '/./{line=$0} END{print line}' /Users/george.owen/src/GitHub/EinhornWatch//Last20/jqout.messageid.txt`
+#RIGHT: Gets FIRST line of file (below)
 latest_id=`awk 'NR==1' $BASEDIR/jqout.messageid.txt`
 latest_text=`awk 'NR==1' $BASEDIR/jqout.text.txt`
 unread_texts=`cat $BASEDIR/jqout.text.txt`
 
 if [ -z $latest_id ]
 then
-#  echo $unread_texts > $BASEDIR/UnreadTexts.txt
   printf "$unread_texts" > $BASEDIR/UnreadTexts.txt
-  latest_id=$after_id
-  latest_text=$old_latest_text
   echo $old_latest_text > $BASEDIR/latestText.txt
   echo $after_id > $BASEDIR/latestID.txt
   echo "\nNo new messages since:\nID: $after_id\nText: $old_latest_text"
   echo "Writing previous message ID (above) to LatestID.txt"
+  latest_id=$after_id
+  latest_text=$old_latest_text
 else
   echo $unread_texts > $BASEDIR/UnreadTexts.txt
   echo $latest_id > $BASEDIR/latestID.txt
@@ -68,6 +68,3 @@ echo "old latest text: $old_latest_text"
 echo "latest text: $latest_text"
 echo "pulled URL: $urlbase$after_id"
 echo "next URL:   $urlbase$latest_id"
-#cat $BASEDIR/latestID.txt
-#echo $urlmessid
-#echo $url
